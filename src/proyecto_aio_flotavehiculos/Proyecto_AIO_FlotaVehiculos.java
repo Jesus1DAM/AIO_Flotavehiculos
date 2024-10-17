@@ -6,14 +6,17 @@ package proyecto_aio_flotavehiculos;
 
 /**
  *
- * @author dam2
+ * @author Jesus
  */
 public class Proyecto_AIO_FlotaVehiculos {
 
     /**
-     * @param args the command line arguments
+     * Es el metodo principal del proyecto
+     * @param args El array de String que captura el programa
      */
     public static void main(String[] args) {
+        System.out.println("Iniciando el Programa...");
+        
         // TODO code application logic here
     }
     
