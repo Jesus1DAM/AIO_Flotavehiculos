@@ -8,6 +8,6 @@ package proyecto_aio_flotavehiculos;
  *
  * @author dam2
  */
-public class Micontrolador {
+public class MimodelitoJesus {
     
 }
