@@ -9,5 +9,5 @@ package proyecto_aio_flotavehiculos;
  * @author Jesus
  */
 public class MimodelitoJesus {
-    
+    //aqui comenzamos con la clase Modelo
 }
