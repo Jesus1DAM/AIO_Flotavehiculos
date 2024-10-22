@@ -10,12 +10,18 @@ package proyecto_aio_flotavehiculos;
  */
 public class Proyecto_AIO_FlotaVehiculos {
 
+
     /**
      * Es el metodo principal del proyecto
      * @param args El array de String que captura el programa
      */
     public static void main(String[] args) {
         System.out.println("Iniciando el Programa...");
+        
+        MiVistaJesus VistaJesus =new MiVistaJesus();
+        VistaJesus.setVisible(true);
+        
+        
         
         // TODO code application logic here
     }
