@@ -11,4 +11,22 @@ package proyecto_aio_flotavehiculos;
 public class MicontroladorJesus {
  //aqui creo mi clase controlador 
     
+        private MimodelitoJesus modelAIO;
+        private MiVistaJesus vistaAIO;
+
+    public MicontroladorJesus() {
+    }
+
+    public MicontroladorJesus(MimodelitoJesus modelAIO, MiVistaJesus vistaAIO) {
+        this.modelAIO = modelAIO;
+        this.vistaAIO = vistaAIO;
+    }
+     
+      public void  IniciarControl(){
+      
+     vistaAIO.setVisible(true);
+     
+}
+
+    
 }

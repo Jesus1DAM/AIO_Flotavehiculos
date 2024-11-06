@@ -18,8 +18,12 @@ public class Proyecto_AIO_FlotaVehiculos {
     public static void main(String[] args) {
         System.out.println("Iniciando el Programa...");
         
-        MiVistaJesus VistaJesus =new MiVistaJesus();
-        VistaJesus.setVisible(true);
+       
+        MimodelitoJesus modelazo = new MimodelitoJesus();
+        MiVistaJesus vistazo = new MiVistaJesus();
+        MicontroladorJesus controlazo = new MicontroladorJesus(modelazo, vistazo);
+        controlazo.IniciarControl();
+
         
         
         

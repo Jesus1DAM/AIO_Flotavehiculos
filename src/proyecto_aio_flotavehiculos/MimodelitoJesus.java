@@ -10,4 +10,17 @@ package proyecto_aio_flotavehiculos;
  */
 public class MimodelitoJesus {
     //aqui comenzamos con la clase Modelo
+    
+    private String titulo;
+    
+    //aqui comenzamos con la clase Modelo
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
 }
