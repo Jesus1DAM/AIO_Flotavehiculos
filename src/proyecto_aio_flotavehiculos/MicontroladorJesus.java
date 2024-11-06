@@ -13,10 +13,10 @@ public class MicontroladorJesus {
     
         private MimodelitoJesus modelAIO;
         private MiVistaJesus vistaAIO;
-
+  //constructor Vacio de MiControladorJesus
     public MicontroladorJesus() {
     }
-
+//constructor  de MiControladorJesis con MimodelitoJesus y con MiVistaJesus
     public MicontroladorJesus(MimodelitoJesus modelAIO, MiVistaJesus vistaAIO) {
         this.modelAIO = modelAIO;
         this.vistaAIO = vistaAIO;

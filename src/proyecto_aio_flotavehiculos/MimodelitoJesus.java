@@ -13,7 +13,7 @@ public class MimodelitoJesus {
     
     private String nombreapp;
     
-    //aqui comenzamos con la clase Modelo
+    
 
     public String getNombreapp() {
         return nombreapp;

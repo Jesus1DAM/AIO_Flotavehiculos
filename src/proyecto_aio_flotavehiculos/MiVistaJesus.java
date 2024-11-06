@@ -15,6 +15,7 @@ public class MiVistaJesus extends javax.swing.JFrame {
      */
     public MiVistaJesus() {
         initComponents();
+        this.setTitle("AIO Flota de Vehículos");
     }
 
     /**

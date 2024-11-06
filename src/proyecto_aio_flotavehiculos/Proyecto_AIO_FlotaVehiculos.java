@@ -16,12 +16,14 @@ public class Proyecto_AIO_FlotaVehiculos {
      * @param args El array de String que captura el programa
      */
     public static void main(String[] args) {
+        //Iniciamos el programa
         System.out.println("Iniciando el Programa...");
         
-       
+       //Creamos los objetos de cada clase  
         MimodelitoJesus modelazo = new MimodelitoJesus();
         MiVistaJesus vistazo = new MiVistaJesus();
         MicontroladorJesus controlazo = new MicontroladorJesus(modelazo, vistazo);
+        //Iniciamos Control que a su vez inica la Vista
         controlazo.IniciarControl();
 
         
