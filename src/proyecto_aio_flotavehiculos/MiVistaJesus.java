@@ -26,18 +26,12 @@ public class MiVistaJesus extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        etqTitulo = new javax.swing.JLabel();
-        etqImagen = new javax.swing.JLabel();
+        etqformatoapp = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        etqTitulo.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
-        etqTitulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        etqTitulo.setText("AIO");
-        getContentPane().add(etqTitulo, java.awt.BorderLayout.PAGE_END);
-
-        etqImagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aiologo.png"))); // NOI18N
-        getContentPane().add(etqImagen, java.awt.BorderLayout.CENTER);
+        etqformatoapp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Plantilla inicio Jesus.png"))); // NOI18N
+        getContentPane().add(etqformatoapp, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -45,7 +39,6 @@ public class MiVistaJesus extends javax.swing.JFrame {
  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel etqImagen;
-    private javax.swing.JLabel etqTitulo;
+    private javax.swing.JLabel etqformatoapp;
     // End of variables declaration//GEN-END:variables
 }
