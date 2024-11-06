@@ -23,8 +23,8 @@ public class MicontroladorJesus {
     }
      
       public void  IniciarControl(){
-      
-     vistaAIO.setVisible(true);
+         System.out.println("Iniciando MiVistaJEsus");
+        vistaAIO.setVisible(true);
      
 }
 
