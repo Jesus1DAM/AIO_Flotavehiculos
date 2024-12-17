@@ -81,6 +81,9 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
         setMinimumSize(new java.awt.Dimension(600, 400));
 
+        txtNombreUsuario.setBackground(new java.awt.Color(0, 102, 153));
+        txtNombreUsuario.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        txtNombreUsuario.setForeground(new java.awt.Color(255, 255, 255));
         txtNombreUsuario.setText("Bienvenid@:");
         getContentPane().add(txtNombreUsuario, java.awt.BorderLayout.PAGE_END);
 

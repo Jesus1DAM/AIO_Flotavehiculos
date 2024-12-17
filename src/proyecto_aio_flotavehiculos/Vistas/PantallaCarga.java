@@ -35,6 +35,8 @@ public class PantallaCarga extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(600, 400));
 
+        etqCargando.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        etqCargando.setForeground(new java.awt.Color(102, 102, 255));
         etqCargando.setText("Cargando....");
         etqCargando.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         getContentPane().add(etqCargando, java.awt.BorderLayout.PAGE_END);
