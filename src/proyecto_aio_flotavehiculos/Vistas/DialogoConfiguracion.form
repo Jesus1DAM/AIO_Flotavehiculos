@@ -59,6 +59,7 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabelNombre">
           <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="Nombre del Propietario:  "/>
           </Properties>
         </Component>
@@ -66,7 +67,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabelDNI">
           <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="DNI :"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtDni">

@@ -19,6 +19,7 @@ public class DialogoConfiguracion extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
         this.setTitle("Ajustes");
+         this.setLocationRelativeTo(null);
     }
 
      /**
@@ -73,11 +74,14 @@ public class DialogoConfiguracion extends javax.swing.JDialog {
 
         PanelSuperior.setLayout(new java.awt.GridLayout());
 
+        jLabelNombre.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelNombre.setText("Nombre del Propietario:  ");
         PanelSuperior.add(jLabelNombre);
         PanelSuperior.add(txtNombre);
 
+        jLabelDNI.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelDNI.setText("DNI :");
+        jLabelDNI.setToolTipText("");
         PanelSuperior.add(jLabelDNI);
         PanelSuperior.add(txtDni);
 
