@@ -17,6 +17,7 @@ public class PantallaCarga extends javax.swing.JFrame {
         initComponents();
         this.setTitle("AIO Flota de Vehículos");
         this.setResizable(false);
+        this.setLocationRelativeTo(null);
     }
 
     /**
