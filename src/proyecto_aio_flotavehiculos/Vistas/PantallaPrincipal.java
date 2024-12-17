@@ -19,6 +19,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     public PantallaPrincipal() {
         initComponents();
         this.setTitle("AIO Flota de Vehículos");
+        this.setLocationRelativeTo(null);
         
     }
     /**
@@ -61,9 +62,11 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
 
-        jLabel1 = new javax.swing.JLabel();
         txtNombreUsuario = new javax.swing.JTextField();
+        jPanelCentral = new javax.swing.JPanel();
+        jLabelICono = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenuOpciones = new javax.swing.JMenu();
         Añadir = new javax.swing.JMenuItem();
@@ -74,13 +77,19 @@ public class PantallaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Pantalla Principal");
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(java.awt.Color.white);
         setMinimumSize(new java.awt.Dimension(600, 400));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.JPG"))); // NOI18N
-        getContentPane().add(jLabel1, java.awt.BorderLayout.CENTER);
 
         txtNombreUsuario.setText("Bienvenid@:");
         getContentPane().add(txtNombreUsuario, java.awt.BorderLayout.PAGE_END);
+
+        jPanelCentral.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabelICono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.png"))); // NOI18N
+        jPanelCentral.add(jLabelICono);
+
+        getContentPane().add(jPanelCentral, java.awt.BorderLayout.CENTER);
 
         jMenuOpciones.setText("Opciones");
 
@@ -114,10 +123,11 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem Añadir;
     private javax.swing.JMenuItem Borrar;
     private javax.swing.JMenuItem Modificar;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabelICono;
     private javax.swing.JMenu jMenuAjustes;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu jMenuOpciones;
+    private javax.swing.JPanel jPanelCentral;
     private javax.swing.JTextField txtNombreUsuario;
     // End of variables declaration//GEN-END:variables
 }

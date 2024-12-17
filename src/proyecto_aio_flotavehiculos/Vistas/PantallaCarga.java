@@ -16,6 +16,7 @@ public class PantallaCarga extends javax.swing.JFrame {
     public PantallaCarga() throws InterruptedException {
         initComponents();
         this.setTitle("AIO Flota de Vehículos");
+        this.setResizable(false);
     }
 
     /**
@@ -31,15 +32,13 @@ public class PantallaCarga extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(600, 400));
         setMinimumSize(new java.awt.Dimension(600, 400));
-        setPreferredSize(new java.awt.Dimension(600, 400));
 
         etqCargando.setText("Cargando....");
         etqCargando.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         getContentPane().add(etqCargando, java.awt.BorderLayout.PAGE_END);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.JPG"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.png"))); // NOI18N
         getContentPane().add(jLabel2, java.awt.BorderLayout.CENTER);
 
         pack();
