@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package proyecto_aio_flotavehiculos;
+package proyecto_aio_flotavehiculos.Vistas;
 
 /**
  *
- * @author Jesus
+ * @author Usuario
  */
-public class MiVistaJesus extends javax.swing.JFrame {
+public class PantallaCarga extends javax.swing.JFrame {
 
     /**
-     * Creates new form MiVistaJesus
+     * Creates new form PantallaCarga
      */
-    public MiVistaJesus() {
+    public PantallaCarga() throws InterruptedException {
         initComponents();
         this.setTitle("AIO Flota de Vehículos");
     }
@@ -27,19 +27,28 @@ public class MiVistaJesus extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        etqformatoapp = new javax.swing.JLabel();
+        etqCargando = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(600, 400));
+        setMinimumSize(new java.awt.Dimension(600, 400));
+        setPreferredSize(new java.awt.Dimension(600, 400));
 
-        etqformatoapp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Plantilla inicio Jesus.png"))); // NOI18N
-        getContentPane().add(etqformatoapp, java.awt.BorderLayout.CENTER);
+        etqCargando.setText("Cargando....");
+        etqCargando.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(etqCargando, java.awt.BorderLayout.PAGE_END);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.JPG"))); // NOI18N
+        getContentPane().add(jLabel2, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
- 
+   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel etqformatoapp;
+    private javax.swing.JLabel etqCargando;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
