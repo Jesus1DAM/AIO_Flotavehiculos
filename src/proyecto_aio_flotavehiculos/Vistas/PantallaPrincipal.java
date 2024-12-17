@@ -45,6 +45,10 @@ public class PantallaPrincipal extends javax.swing.JFrame {
  public void addActionListenerAjustes(ActionListener l){
         Ajustes.addActionListener(l);
     }
+ /**
+    * Control para actualizar el nombre de usuario en el area de Texto de NOmbre Usuario.
+    */
+ 
  public void setNombreusuario(String nombreusuario) {
         txtNombreUsuario.setText(nombreusuario);
     }

@@ -21,7 +21,9 @@ public class DialogoConfiguracion extends javax.swing.JDialog {
         this.setTitle("Ajustes");
     }
 
-    
+     /**
+    * Getters del Nombre y DNI del propietario
+    */ 
      public String getNombrePropietario() {
         return txtNombre.getText();
     }

@@ -11,7 +11,7 @@ package proyecto_aio_flotavehiculos.Vistas;
 public class PantallaCarga extends javax.swing.JFrame {
 
     /**
-     * Creates new form PantallaCarga
+     * Creacion dePantallaCarga
      */
     public PantallaCarga() throws InterruptedException {
         initComponents();

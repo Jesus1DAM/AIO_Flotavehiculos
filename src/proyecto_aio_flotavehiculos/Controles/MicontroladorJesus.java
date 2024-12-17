@@ -100,7 +100,7 @@ public void actionPerformed(ActionEvent e){
 }
 
 /**
-    *Metodo para recoger el nombre de usuario del Jdialog.
+    *Metodo para recoger el nombre  y DNI de usuario del Jdialog.
     */
 
 private void PonerDatosUsuario(){
