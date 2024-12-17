@@ -6,7 +6,7 @@ package proyecto_aio_flotavehiculos.Vistas;
 
 /**
  *
- * @author Usuario
+ * @author Jesus
  */
 public class PantallaCarga extends javax.swing.JFrame {
 

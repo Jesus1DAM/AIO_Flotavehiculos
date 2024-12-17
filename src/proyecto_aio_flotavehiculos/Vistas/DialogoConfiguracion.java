@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 /**
  *
- * @author Usuario
+ * @author Jesus
  */
 public class DialogoConfiguracion extends javax.swing.JDialog {
 
@@ -18,6 +18,7 @@ public class DialogoConfiguracion extends javax.swing.JDialog {
     public DialogoConfiguracion(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        this.setTitle("Ajustes");
     }
 
     

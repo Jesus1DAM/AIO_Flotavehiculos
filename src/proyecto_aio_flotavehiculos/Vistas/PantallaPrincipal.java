@@ -19,6 +19,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     public PantallaPrincipal() {
         initComponents();
         this.setTitle("AIO Flota de Vehículos");
+        
     }
     /**
     * Control para escuchar Añadir.
@@ -44,8 +45,8 @@ public class PantallaPrincipal extends javax.swing.JFrame {
  public void addActionListenerAjustes(ActionListener l){
         Ajustes.addActionListener(l);
     }
-public void ponNombreUsuario(String c) {
-        txtNombreUsuario.setText(c);
+ public void setNombreusuario(String nombreusuario) {
+        txtNombreUsuario.setText(nombreusuario);
     }
  
     /**
@@ -69,13 +70,12 @@ public void ponNombreUsuario(String c) {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Pantalla Principal");
-        setMaximumSize(new java.awt.Dimension(600, 400));
         setMinimumSize(new java.awt.Dimension(600, 400));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aio.JPG"))); // NOI18N
         getContentPane().add(jLabel1, java.awt.BorderLayout.CENTER);
 
-        txtNombreUsuario.setText("Bienvenido : Nuevo Usuario");
+        txtNombreUsuario.setText("Bienvenid@:");
         getContentPane().add(txtNombreUsuario, java.awt.BorderLayout.PAGE_END);
 
         jMenuOpciones.setText("Opciones");

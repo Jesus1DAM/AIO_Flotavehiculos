@@ -22,7 +22,8 @@ public class MicontroladorJesus implements ActionListener{
         private PantallaPrincipal vistaAIO;
         private PantallaCarga cargaAIO;
         private DialogoConfiguracion dialogoAIO;
-        
+        private String usuarionombre;
+        private String usuariodni;
         
   //constructor Vacio de MiControladorJesus
     public MicontroladorJesus() {
@@ -60,7 +61,7 @@ private void Escuchadores(){
         vistaAIO.addActionListenerAjustes(this);
         dialogoAIO.addActionListenerbtnGuardar(this);
         dialogoAIO.addActionListenerbtnSalir(this);
-    
+        
 }
  /**
     *Switch para escuchar cada Evento.
@@ -84,8 +85,9 @@ public void actionPerformed(ActionEvent e){
             break;
         case "Guardar":
             System.out.println("Has seleccionado Guardar Configuracion");
-            PonerNombreUsuario();
-            PonerDNIUsuario();
+            PonerDatosUsuario();
+            
+            
             break;
         case "Salir":
             System.out.println("Has seleccionado Salir de Configuracion");
@@ -101,26 +103,19 @@ public void actionPerformed(ActionEvent e){
     *Metodo para recoger el nombre de usuario del Jdialog.
     */
 
-private void PonerNombreUsuario(){
+private void PonerDatosUsuario(){
     
     if ( !dialogoAIO.getNombrePropietario().isEmpty() ){
-      
-        System.out.println("Nombre del propietario: " + dialogoAIO.getNombrePropietario()+ ".");
+        usuarionombre= dialogoAIO.getNombrePropietario();
+        usuariodni = dialogoAIO.getDNIPropietario();
+        vistaAIO.setNombreusuario("Bienvenid@: "+ usuarionombre +"   DNI: " +usuariodni);
+        System.out.println("Nombre del propietario: " + usuarionombre + ".");
+        System.out.println("DNI del propietario: " + usuariodni + ".");
     }
     dialogoAIO.dispose();
 }
 /**
-    *Metodo para recoger el DNI de usuario del Jdialog.
-    */
 
-private void PonerDNIUsuario(){
-    
-    if ( !dialogoAIO.getDNIPropietario().isEmpty() ){
-        
-        System.out.println("Dni del propietario: " + dialogoAIO.getDNIPropietario()+ ".");
-    }
-    dialogoAIO.dispose();
-}
 /**
     *Metodo para Salir de la configuracion del Jdialog.
     */
@@ -134,4 +129,8 @@ private void Salirdeconfig(){
      private void lanzaconfiguracion(){
     dialogoAIO.setVisible(true);
 }
+   
+     
+
+    
 }
