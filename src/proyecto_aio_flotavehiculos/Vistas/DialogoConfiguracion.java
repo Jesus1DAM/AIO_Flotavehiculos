@@ -33,12 +33,14 @@ public class DialogoConfiguracion extends javax.swing.JDialog {
     }
      /**
     * Escuchador para el boton de Guardar
+    * @param l ActionListener
     */ 
       public void addActionListenerbtnGuardar(ActionListener l){
         btnGuardar.addActionListener(l);
     }
       /**
     * Escuchador para el boton de Salir
+    * @param l ActionListener
     */
         public void addActionListenerbtnSalir(ActionListener l){
         btnSalir.addActionListener(l);

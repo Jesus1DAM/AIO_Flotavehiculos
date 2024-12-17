@@ -24,30 +24,36 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     }
     /**
     * Control para escuchar Añadir.
+    * @param l ActionListener
     */
  public void addActionListenerAñadir(ActionListener l){
         Añadir.addActionListener(l);
     }
   /**
     * Control para escuchar Borrar.
+    * @param l ActionListener
     */
  public void addActionListenerBorrar(ActionListener l){
         Borrar.addActionListener(l);
+        
     }
   /**
     * Control para escuchar Modificar.
+    * @param l ActionListener
     */
  public void addActionListenerModificar(ActionListener l){
         Modificar.addActionListener(l);
     }
   /**
     * Control para escuchar Ajustes.
+    * @param l ActionListener
     */
  public void addActionListenerAjustes(ActionListener l){
         Ajustes.addActionListener(l);
     }
  /**
     * Control para actualizar el nombre de usuario en el area de Texto de NOmbre Usuario.
+    * @param String nombreusuario
     */
  
  public void setNombreusuario(String nombreusuario) {
